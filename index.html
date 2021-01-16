@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
 </head>
 <body>
     <section id="header">
@@ -38,7 +39,7 @@
 
     <section id="welcome">
         <div class="container">
-            <div class="welcome text-center">
+            <div class="welcome text-center wow slideInLeft">
                 <h2>Welcome to The PG's Fitness hub</h2>
                 <h3>Hum Banayenge Fit India</h3>
             </div>
@@ -46,7 +47,7 @@
     </section>
     <section id="about-us">
         <div class="container">
-            <div class="about text-center">
+            <div class="about text-center wow slideInRight">
                 <h2>About Us</h2>
             </div>
         </div>
@@ -96,7 +97,7 @@
     <!--Services-->
     <section id="services-head">
         <div class="container">
-            <div class="services-head text-center">
+            <div class="services-head text-center wow slideInLeft">
                 <h2>Services</h2>
             </div>
         </div>
@@ -105,7 +106,7 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center wow slideInLeft">
                     <img src="./assets/cardio.jpg" alt="">    
                 </div>
                 <div class="col-md-6 text-justify">
@@ -118,11 +119,11 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error repellat exercitationem qui minima quas inventore? Quisquam voluptatum illum repudiandae placeat impedit maxime, earum labore modi quas veniam, beatae obcaecati.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam dicta provident laborum. Corrupti qui ipsum debitis possimus magnam, reiciendis distinctio incidunt architecto quasi, atque sunt eligendi optio? Placeat, fugit?</p>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center wow slideInRight" >
                     <img src="./assets/crossfit.jpg" alt="">    
                 </div>
-                <div class="col-md-6 text-center">
-                    <img src="./assets/powergym.jpg" alt="">    
+                <div class="col-md-6 text-center wow slideInLeft">
+                    <img src="./assets/powergym.jpg" alt="" >    
                 </div>
                 <div class="col-md-6 text-justify">
                     <h3>Power Gym</h3>
@@ -134,15 +135,15 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde error repellat exercitationem qui minima quas inventore? Quisquam voluptatum illum repudiandae placeat impedit maxime, earum labore modi quas veniam, beatae obcaecati.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam dicta provident laborum. Corrupti qui ipsum debitis possimus magnam, reiciendis distinctio incidunt architecto quasi, atque sunt eligendi optio? Placeat, fugit?</p>
                 </div>
-                <div class="col-md-6 text-center">
-                    <img src="./assets/yoga.jpg" alt="">
+                <div class="col-md-6 text-center wow slideInRight">
+                    <img src="./assets/yoga.jpg " alt="" >
                  </div>
             </div>
         </div>
     </section>
     <section id="subscribe">
         <div class="container">
-            <div class="subscribe text-center">
+            <div class="subscribe text-center wow slideInLeft">
                 <h3>Join us now!</h3>
 
             </div>
@@ -185,5 +186,8 @@
             </div>
         </div>
     </section>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();
+    </script>
 </body>
 </html>
