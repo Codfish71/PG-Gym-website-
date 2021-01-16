@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#header
+{
+        background-image: url(../assets/home.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+}
+.navbar-nav li
+{
+    color: #fff;
+}
+
+.navbar-nav li a{
+    float: right;
+    color:#fff;
+}
+.navbar-brand 
+{
+    margin-left:30px ;
+    color: #fff;
+}
+.navbar-nav .nav-link
+{
+    color: #000!important;
+    font-size: 26px;
+
+} 
+.welcome
+{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1
+{
+    color: #333;
+
+}
+.about
+{
+    padding: 50px 100px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.services-head
+{
+    padding: 50px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding: 20px 10px;
+}
+#about h3
+{
+    margin: 20px auto;
+}
+
+.subscribe
+{
+    padding: 50px 20px;
+    background-color: #333;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    color: #efefef;
+}
+
+#footer
+{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #efefef;
+    color: #000;
+}
