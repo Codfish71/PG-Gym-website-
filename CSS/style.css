@@ -90,3 +90,8 @@
     background-color: #efefef;
     color: #000;
 }
+@media only screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+  }
